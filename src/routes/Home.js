@@ -1,8 +1,11 @@
+import NavBar from "../components/Navbar";
+import Hero from "../components/Hero";
+
 function Home(){
     return(
       <>
-      <h1>Home Page</h1>
-
+      <NavBar />
+      <Hero />
       </>
 
     )
