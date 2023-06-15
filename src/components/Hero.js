@@ -1,9 +1,10 @@
 import "./HeroStyles.css";
+import mountain from "../assets/img1.jpeg";
 
 function Hero(){
     return(<>
       <div className="hero">
-          <img src="https://images.pexels.com/photos/1271619/pexels-photo-1271619.jpeg?auto=compress&cs=tinysrgb&w=300" alt="hero"></img>
+          <img src={mountain} alt="hero"></img>
       </div>
     </>)
 
