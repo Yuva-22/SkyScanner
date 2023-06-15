@@ -11,6 +11,9 @@ function Home(){
       heroImg={img1}
       title="Your Journey Your Story"
       text="Choose Your Favourite Destination"
+      btntext="Travel plan"
+      url="/"
+      btnclass="show"
       />
       </>
 
