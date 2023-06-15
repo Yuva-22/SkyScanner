@@ -1,6 +1,6 @@
 import NavBar from "../components/Navbar";
 import Hero from "../components/Hero";
-import img2 from "../assets/img2.jpeg";
+import img4 from "../assets/img4.jpeg";
 
 
 function About(){
@@ -9,12 +9,9 @@ function About(){
       <NavBar />
       <Hero 
       cName="hero-mid"
-      heroImg={img2}
+      heroImg={img4}
       title="About"
-      text="Choose Your Favourite Destination"
-      btntext="Travel plan"
-      url="/"
-      btnclass="show"
+      btnclass="hide"
       />
       
       </>
