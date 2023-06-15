@@ -1,10 +1,16 @@
 import "./HeroStyles.css";
-import mountain from "../assets/img1.jpeg";
 
-function Hero(){
+
+function Hero(props){
     return(<>
-      <div className="hero">
-          <img src={mountain} alt="hero"></img>
+      <div className={props.cName}>
+          <img src={props.heroImg} alt="hero"></img>
+
+          <div className="hero-text">
+            <h1>{props.title}</h1>
+            <p>{props.text}</p>
+            <a href="/">Travel Plan</a>
+          </div>
       </div>
     </>)
 
