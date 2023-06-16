@@ -1,12 +1,10 @@
 import "./Destinationstyles.css";
 import { Component } from "react";
-import i1 from "../assets/1.jpg";
-import i2 from "../assets/2.jpg";
 
 class DestinationData extends Component{
      render(){
         return(
-        <div className="first-des">
+        <div className={this.props.className}>
             <div className="des-text">
                  <h2>{this.props.heading}</h2>
                  <p>{this.props.text}</p>
