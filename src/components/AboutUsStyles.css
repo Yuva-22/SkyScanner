@@ -7,6 +7,15 @@
     padding-bottom: 1rem;
 }
 
+.about-container h3{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: "cookie",cursive;
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
 .about-container p{
     padding-bottom: 2rem;
 }
