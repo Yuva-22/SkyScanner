@@ -1,6 +1,8 @@
 import NavBar from "../components/Navbar";
 import Hero from "../components/Hero";
 import img6 from "../assets/img6.jpeg";
+import Footer from "../components/Footer";
+import Trip from "../components/Trip";
 
 
 function Service(){
@@ -13,6 +15,8 @@ function Service(){
       title="Our Services"
       btnclass="hide"
       />
+      <Trip />
+      <Footer />
       </>
 
     )
