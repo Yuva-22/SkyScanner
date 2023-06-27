@@ -11,7 +11,7 @@ import i8 from "../assets/darjeeling2.jpg";
 
 
 
-const Destination = () =>{
+function Destination(){
     return(
      <div className="destination">
         <h1>Popular Destinations</h1>
