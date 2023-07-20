@@ -3,11 +3,12 @@ import Hero from "../components/Hero";
 import img6 from "../assets/img6.jpeg";
 import Footer from "../components/Footer";
 import Trip from "../components/Trip";
-
+import Chat from "../components/Chat";
 
 function Service(){
     return(
       <>
+      <Chat />
       <NavBar />
       <Hero 
       cName="hero-mid"

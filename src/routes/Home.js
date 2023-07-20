@@ -4,10 +4,12 @@ import img1 from "../assets/img1.jpeg";
 import Destination from "../components/Destination";
 import Trip from "../components/Trip";
 import Footer from "../components/Footer";
+import Chat from "../components/Chat";
 
 function Home(){
     return(
       <>
+      <Chat />
       <NavBar />
       <Hero 
       cName="hero"
