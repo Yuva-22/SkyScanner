@@ -9,7 +9,6 @@ import Chat from "../components/Chat";
 function About(){
     return(
       <>
-      <Chat />
       <NavBar />
       <Hero 
       cName="hero-mid"
